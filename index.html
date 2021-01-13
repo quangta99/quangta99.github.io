@@ -39,16 +39,16 @@
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul class="navbar-nav ml-auto flex-nowrap">
                 <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+                    <a href="#" class="nav-link m-2 menu-item nav-active delay-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link m-2 menu-item">About me</a>
+                    <a href="#about" class="nav-link m-2 menu-item delay-link">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#recent-work" class="nav-link m-2 menu-item">Recent Work</a>
+                    <a href="#recent-work" class="nav-link m-2 menu-item delay-link">Recent Work</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+                    <a href="#contact" class="nav-link m-2 menu-item delay-link">Contact</a>
                 </li>
             </ul>
         </div>
@@ -228,7 +228,7 @@
 <script>
     new WOW().init();
     $(document).ready(function () {
-        $('.section').click(function (e) {
+        $('.delay-link').click(function (e) {
             e.preventDefault();
             var $a = $(this).addClass('clicked');
             setTimeout(function () {
