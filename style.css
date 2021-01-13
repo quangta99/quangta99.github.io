@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+#loading {
+    z-index: 9000;
+    height: 100vh;
+    background: #333333;
+}
 #header {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./asset/106956.jpg);
